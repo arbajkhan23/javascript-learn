@@ -1,2 +1,2 @@
-ARBAJ KHAN
-JAVASCRIPT
+
+console.log("arbaj khan")
