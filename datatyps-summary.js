@@ -39,3 +39,27 @@ const myFunction = function() {
 
 console.log(typeof myFunction);
 
+
+// ++++++++++++++++++++++
+// Memory
+// Stack (Primitive) use hoti hai 
+// Heap (Noe Primitive) use hoti hai 
+
+let myInstaname = "arbja khan";
+let anotherName = myInstaname;
+anotherName = "javascript learning"
+console.log(myInstaname);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "arbajkhan8034@gmail.com",
+    upi: "arbaj@bl",
+}
+
+let userTow = userOne
+userTow.email = "arbajkhan8034@gmail.com"
+
+console.log(userOne.email)
+console.log(userTow.email)
+
